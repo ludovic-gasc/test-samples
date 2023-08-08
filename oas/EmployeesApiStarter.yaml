@@ -1,14 +1,14 @@
 openapi: 3.0.0
 info:
   title: EmployeesApi
-  description: Employee management API for Db2.
+  description: Employee management API
   version: "1"
 servers:
 - url: /
 paths:
   /employees:
     get:
-      description: Uses the getEmployees Db2 z/OS asset
+      description: Uses the getEmployees
       responses:
         "200":
           description: OK
